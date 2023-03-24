@@ -5,7 +5,7 @@ const port = 8080
 
 app.get('/', (req, res) => {
     
-  return res.send("HOLA");
+  return res.send("BUEN DIA");
 })
 
 
