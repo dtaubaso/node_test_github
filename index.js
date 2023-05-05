@@ -5,7 +5,7 @@ const port = 8080
 
 app.get('/', (req, res) => {
     
-  var variable = process.env.MENSAJE;
+  var variable = `${process.env.MENSAJE}, como estas?`;
   res.send(variable);
 })
 
